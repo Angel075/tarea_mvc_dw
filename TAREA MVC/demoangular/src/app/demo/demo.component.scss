@@ -1,0 +1,24 @@
+// Estilo para la tabla
+table {
+    border-collapse: collapse;
+    width: 150%;
+    margin: 20px auto;
+    border: 1px solid red; /* Agrega un borde alrededor de la tabla */
+  }
+  // Estilo para las celdas de encabezado
+  th {
+    background-color: beige; //coloca de relleno al encabezado
+    padding: 10px;
+    text-align: left;
+    border: 1px solid black; /* Resalta el borde de las celdas de encabezado */
+  }
+  // Estilo para las celdas de datos
+  td {
+    padding: 10px;
+    border: 1px solid black;
+  }
+  // Estilo para la primera fila (encabezado)
+  tr:first-child {
+    font-weight: bold;
+  }
+  

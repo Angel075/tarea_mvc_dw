@@ -1,0 +1,24 @@
+<p>home works componente home!!</p>
+<div
+>
+<h2>datos del ws rest</h2>
+  <ul>
+    <li *ngFor="let data of data">
+    {{ data.id }}
+    {{ data.nombre}}
+  </li>
+  </ul>
+</div>
+
+<table class="table table-dark table-striped">
+  <thead>
+    <tr *ngFor="let data of data">
+
+      <td>{{data.id}} </td>
+      <td>{{data.nombre}} </td>
+    </tr>
+  </thead>
+  <tbody>
+
+ </table>
+ <td><app-demo></app-demo></td>
